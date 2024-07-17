@@ -1,0 +1,98 @@
+
+
+/* formulario */
+
+
+body {
+  font-family: "Playwrite CU", cursive;
+  background-color: #000000;
+  color: #73ff00;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #73ff00;
+  border-radius: 8px;
+
+}
+
+.alert-danger {
+  color: #ff0000; 
+  background-color: #000000; 
+  border-color: #ff0000; 
+}
+
+.form-control:focus {
+  border-color: #fffb00; 
+  box-shadow: 0 0 0 0.1rem rgb(209, 255, 2); 
+}
+
+.form-control {
+  border-color: #00ff15; 
+}
+
+.form-control:focus {
+  border-color: #fffb00; 
+  box-shadow: 0 0 0 0.1rem rgb(209, 255, 2); 
+}
+
+.btn-primary {
+  background-color: #03863e; 
+  border-color: #000000; 
+  font-family: "Playwrite AR", cursive; 
+}
+
+.btn-primary:hover {
+  background-color: #00ff62; 
+  border-color: #000000; 
+}
+
+
+
+/* LISTA */
+.card {
+  margin: 0;
+  width: 300px;
+  border: 1px solid #09ff00; 
+  border-radius: 1.5rem; 
+}
+
+
+
+.card-title {
+  color:#003cff;
+  font-size: 1.5rem; 
+  margin-bottom: 0.5rem; 
+}
+
+
+.card-text {
+  color: #4400ff; 
+}
+
+.btn {
+  font-size: 1rem; 
+  margin-right: 1rem; 
+
+}
+
+.lista-productos {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem; 
+}
+
+.card {
+  display: flex;
+  max-width: 15rem; 
+  margin-top: 2rem;
+}
+
+
